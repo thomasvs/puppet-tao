@@ -1,0 +1,10 @@
+name          'puppet-tao'
+version       '0.1.0'
+source        'git@github.com:thomasvs/puppet-tao.git'
+author        'thomas'
+license       'Apache 2.0'
+summary       'Enable the thomas.apestaart.org repository'
+description   ''
+project_page  ''
+
+dependency 'puppetlabs/stdlib'
