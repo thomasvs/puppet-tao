@@ -5,7 +5,7 @@
 class tao::config {
   include ::tao::params
 
-  if ($::tao::params::dpkg == 'rpm') {
+  if ($::tao::params::pkg == 'rpm') {
     yum::gpgkey { '/etc/pki/rpm-gpg/RPM-GPG-KEY-tao':
       ensure => present,
       source => 'puppet:///modules/tao/RPM-GPG-KEY-tao',
