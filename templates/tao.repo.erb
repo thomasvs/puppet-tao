@@ -1,0 +1,11 @@
+[tao]
+name=t.a.o $releasever - $basearch
+baseurl=http://thomas.apestaart.org/pkg/<%= @distro %>/$releasever/$basearch/
+enabled=1
+gpgcheck=1
+
+[tao-source]
+name=t.a.o $releasever - Source
+baseurl=http://thomas.apestaart.org/pkg/<%= @distro %>/$releasever/SRPMS/
+enabled=0
+gpgcheck=1
