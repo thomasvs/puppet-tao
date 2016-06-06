@@ -24,7 +24,7 @@ describe 'tao' do
 
 	  # FIXME: shouldn't this be testable now?
           it { is_expected.to contain_yum__gpgkey('/etc/pki/rpm-gpg/RPM-GPG-KEY-tao') }
-          it { is_expected.to contain_yum__repofile('tao.repo') }
+          it { is_expected.to contain_yum__repofile('tao.repo').with_content(/centos/) }
 
         end
       end
