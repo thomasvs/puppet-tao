@@ -1,5 +1,6 @@
 fixtures:
   repositories:
     stdlib: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+    yum: "https://github.com/thomasvs/puppet-yum.git"
   symlinks:
     tao: "#{source_dir}"
